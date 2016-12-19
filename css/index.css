@@ -18,6 +18,7 @@
     padding-left: 10%;
 
 }
+
 #navigation {
   margin:0;
   background-color: #3f51b5;
@@ -73,7 +74,7 @@ aside > h1 {
 	color: #fff;
 	padding: 10px;
 	margin: 0;
-	max-width: 300px;
+	
 }
 
 aside > p {
@@ -81,10 +82,19 @@ aside > p {
 	border: 1px solid #e7e7e7;
 	padding: 10px;
 	margin: 0;
-	max-width: 300px;
+
 }
-#Comment {
-       padding: 5px;
+#ourcomment {
+       padding: 0px;
+}
+#ourcomment  p {
+    background: #29c5e6;
+	font: 18px 'Oswald', sans-serif;
+	color: #fff;
+	padding: 10px;
+	margin: 0;
+	
+
 }
 
 blockquote {
@@ -121,8 +131,12 @@ footer {
     height:100px;
 	margin: 0 auto ;
 	padding-left: 17px;
-	text-align: center;
+
 	
+}
+footer p {
+    text-align: center;
+    padding: 20px;
 }
 
  

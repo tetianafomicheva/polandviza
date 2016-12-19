@@ -3,7 +3,7 @@ main {
     background-color: #e8eaf6;
 }
 main aside {
-    min-width: 40%;
+    min-width: 30%;
 } 
 @media screen and (max-width: 720px) {
     header {
@@ -40,6 +40,7 @@ main aside {
     main aside {
         order: 2;
     }
+    
 }
 @media screen and (max-width: 250px) {
     section {
