@@ -15,7 +15,7 @@ main aside {
     #navigation {
         display:flex;
     }
-
+   
     aside {
         display: flex;
         flex-wrap: wrap;

@@ -6,15 +6,13 @@ $(function() {
             url: "https://formspree.io/tatyana_chocolate@meta.ua",
             method: "POST",
             data: {
-                name: $('#name').val(),
-                email: $('#email').val(),
-                comment: $('#comment').val()
-                
+               comment: $('#comment').val()
+            
             },
             dataType: "json"
         })
         .done(function(){
-          $('form').html;  
+          $('form').html('<h1>Ваш коментар надіслано</h1>'); 
         });
     });
 });

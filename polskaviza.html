@@ -1,6 +1,6 @@
 <!DOCTYPE html>
   <html>
-
+<html lang="uk">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,9 +11,7 @@
 </head>
 
 <body>
-    <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
-    </script>
-    <script type="text/javascript" src="js/index.js"></script>
+   
 
     <div class="header-bar">
         <h1>Візи в Польщу</h1>
@@ -41,25 +39,25 @@
             <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;height=300&amp;wkst=2&amp;hl=uk&amp;bgcolor=%239999ff&amp;src=ru.ukrainian%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=Europe%2FKiev"
                 style="border-width:0" width="300" height="300" frameborder="0" scrolling="no"></iframe>
 
-             <div id="ourcomment">
+     <div id="ourcomment">
                 <p>Останні коментарі</p>
-                <div id = "send">
-                <form action="https://formspree.io/tatyana_chocolate@meta.ua" method="POST">
+               
+                <form>
                     <label for="name"> Ваше імя:</label>
                     <br>
-                    <input type="text" name="text" placeholder="Імя">
+                    <input type="text" id ="name">
                     <br>
                     <label for="email"> Ваш email:</label>
                     <br>
-                    <input type="email" name="email" placeholder="Email"><br>
+                    <input type="email" id="email"><br>
                     <br>
-                    <label for="Comments"> Ваші коментарі:</label>
+                    <label for="comment"> Ваші коментарі:</label>
                     <br>
-                    <input type="text" name="text" placeholder="Коментар"></textarea>
+                    <input type="text" id="comment">
                     <br>
-                    <input type="button" value="send">
+                    <input type="send" id="send" value="send">
                 </form>
-                </div>
+           
             </div>
         </aside>
     <section>
@@ -111,8 +109,10 @@
 </footer>
     
     
-  
-
+   <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 
 </html>

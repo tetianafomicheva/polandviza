@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<html lang="uk">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,12 +9,7 @@
     <link rel="stylesheet" href="css/index-layout.css">
 
 </head>
-
 <body>
-    <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
-    </script>
-    <script type="text/javascript" src="js/index.js"></script>
-
     <div class="header-bar">
         <h1>Візи в Польщу</h1>
     </div>
@@ -36,71 +31,58 @@
                 <br>тел моб: (093)713-11-44;</br>
                 <br> Працюємо:Пн-Пт з 09-18.год</br>
             </p>
-
-
-            <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;height=300&amp;wkst=2&amp;hl=uk&amp;bgcolor=%239999ff&amp;src=ru.ukrainian%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=Europe%2FKiev"
+        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;height=300&amp;wkst=2&amp;hl=uk&amp;bgcolor=%239999ff&amp;src=ru.ukrainian%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=Europe%2FKiev"
                 style="border-width:0" width="300" height="300" frameborder="0" scrolling="no"></iframe>
 
-            <div id="ourcomment">
+        <div id="ourcomment">
                 <p>Останні коментарі</p>
-                <div id = "send">
-                <form action="https://formspree.io/tatyana_chocolate@meta.ua" method="POST">
+                <form>
                     <label for="name"> Ваше імя:</label>
                     <br>
-                    <input type="text" name="text" placeholder="Імя">
+                    <input type="text" id ="name">
                     <br>
                     <label for="email"> Ваш email:</label>
                     <br>
-                    <input type="email" name="email" placeholder="Email"><br>
+                    <input type="email" id="email"><br>
                     <br>
-                    <label for="Comments"> Ваші коментарі:</label>
+                    <label for="comment"> Ваші коментарі:</label>
                     <br>
-                    <input type="text" name="text" placeholder="Коментар"></textarea>
+                    <input type="text" id="comment">
                     <br>
-                    <input type="button" value="send">
+                    <input type="send" id="send" value="send">
                 </form>
-                </div>
             </div>
         </aside>
         <section>
             <blockquote>
                 <cite>Реєструємо на любу категорію візи!</cite>
-                <p> <br><br>
-
+                <p> 
                     <br>Для електронної реєстрації на чергу для отримання візи (Шенген, Національної) необхідно подати наступні документи:<br>
-
                     <br>- копія паспорта громадянина України(1-2 сторінка і приписка);</br>
                     <br>- копія закордонний паспорта (1 сторінка і якшо були візи то копію останньої візи);</br>
                     <br>- копія ідентифікаційний код;</br>
                     <br>- 2 фото (80 % обличчя);</br>
                     <br>- Номер телефону (мобільний).</br>
-
                     <br>Для заявників які прописані в:</br>
-
                     <br>- Львівській, Франківській, Закарпатській (Львівський консульський округ);</br>
-
                     <br>- Тернопільській, Рівненській, Волинській (Луцький консульський округ);</br>
-
                     <br>- Чернівецькій, Хмельницькій, Вінницькій, Житомирській (Вінницький консульський округ);</br>
-
                     <br>- Київській, Чернігівській, Черкаській, Кіровоградській (Київський консульський округ);</br>
-
                     <br>- Харківській, Сумській, Полтавській, Дніпропетровській, Донецькій, Запорізькій, Луганській(Харківський консульський округ).</br>
-
                     <br>- Одеська область, Миколаївська область, Херсонська область, АР Крим (Одеський консульський округ);</br>
-
                     <br> B цих областях повинен бути чек про оплату сервісного платежу в Кредобанку або Idea банку в розмірі 18,5 євро.</br>
                 </p>
-
-
             </blockquote>
         </section>
     </main>
     <footer>
-        <div id="footer">
-            <div id="mail">
-                <p>lviv-vizapoland@mail.ru</p>
-            </div>
+        <div id="mail">
+            <p>lviv-vizapoland@mail.ru</p>
+        </div>
     </footer>
+        <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
